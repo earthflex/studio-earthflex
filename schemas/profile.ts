@@ -156,7 +156,7 @@ export default defineType({
         },
         defineField({
             name: 'pdf',
-            title: 'PDF',
+            title: 'Resume PDF File',
             type: 'file',
             description: 'Upload PDF files.',
             options: {
