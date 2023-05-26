@@ -8,12 +8,12 @@ export const structure = (S: any) =>
                 .icon(RxAvatar)
                 .child(
                     S.document()
-                        .schemaType('PROFILE')
-                        .documentId('PROFILE')
+                        .schemaType('profile')
+                        .documentId('profile')
                 ),
             S.divider(),
             ...S.documentTypeListItems().filter(
                 (listItem: { getId: () => string }) =>
-                    !['PROFILE'].includes(listItem.getId())
+                    !['profile'].includes(listItem.getId())
             ),
         ]);

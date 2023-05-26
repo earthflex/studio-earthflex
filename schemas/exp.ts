@@ -2,7 +2,7 @@ import { defineType, defineField } from "sanity";
 import { RxBackpack } from "react-icons/rx";
 
 export default defineType({
-    name: 'EXPERIENCE',
+    name: 'experience',
     title: 'Experience',
     type: 'document',
     icon: RxBackpack,

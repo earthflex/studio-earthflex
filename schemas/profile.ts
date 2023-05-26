@@ -16,7 +16,7 @@ const yearField = {
 };
 
 export default defineType({
-    name: 'PROFILE',
+    name: 'profile',
     title: 'Profile Skill',
     type: 'document',
     fields: [

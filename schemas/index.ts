@@ -1,8 +1,8 @@
-import WORKS_ITEMS from './works'
-import PROFILE from './profile'
-import EXPERIENCE from './exp'
+import works from './works'
+import profile from './profile'
+import experience from './exp'
 export const schemaTypes = [
-    PROFILE,
-    EXPERIENCE,
-    WORKS_ITEMS,
+    profile,
+    experience,
+    works,
 ]
