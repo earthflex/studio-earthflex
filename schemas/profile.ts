@@ -23,6 +23,7 @@ export default defineType({
         defineField({
             name: 'status',
             title: 'Employment types',
+            description: 'Status your work',
             type: 'string',
             options: {
                 list: ['Full-time', 'Freelancers', 'Finding a new job'],
@@ -91,6 +92,7 @@ export default defineType({
                         options: {
                             list: yearList,
                         },
+
                     },
                     {
                         name: "endmonth",
@@ -152,6 +154,15 @@ export default defineType({
                 ],
             }],
         },
+        defineField({
+            name: 'pdf',
+            title: 'PDF',
+            type: 'file',
+            description: 'Upload PDF files.',
+            options: {
+                accept: '.pdf'
+            }
+        })
     ],
     preview: {
         prepare() {
