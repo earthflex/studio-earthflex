@@ -8,10 +8,6 @@ export default defineType({
             name: 'name',
             title: 'Name',
             type: 'string',
-            // validation: Rule => [
-            //     Rule.required().min(10).error('A title of min. 10 characters is required'),
-            //     Rule.max(50).warning('Shorter titles are usually better')
-            // ]
         }),
         defineField({
             name: 'slug',

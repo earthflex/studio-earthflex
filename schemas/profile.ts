@@ -134,6 +134,11 @@ export default defineType({
                 type: 'object',
                 fields: [
                     {
+                        name: 'type',
+                        title: 'Type Contact',
+                        type: 'string',
+                    },
+                    {
                         name: 'icon',
                         title: 'Icon',
                         type: 'image',
@@ -142,14 +147,19 @@ export default defineType({
                         }
                     },
                     {
-                        name: 'title',
-                        title: 'Title',
+                        name: 'detail',
+                        title: 'Detail',
                         type: 'string',
                     },
                     {
                         name: 'href',
                         title: 'Link',
                         type: 'string',
+                    },
+                    {
+                        name: 'newtab',
+                        title: 'Open Link New Tab',
+                        type: 'boolean',
                     },
                 ],
             }],

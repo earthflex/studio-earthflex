@@ -47,7 +47,8 @@ export default defineType({
                         title: 'Start Date',
                         type: 'date',
                         options: {
-                            dateFormat: 'MM/YYYY',
+                            dateFormat: 'DD/MM/YYYY',
+                            calendarTodayLabel: 'Today'
                         },
                     },
                     {
@@ -55,7 +56,8 @@ export default defineType({
                         title: 'End Date',
                         type: 'date',
                         options: {
-                            dateFormat: 'MM/YYYY',
+                            dateFormat: 'DD/MM/YYYY',
+                            calendarTodayLabel: 'Today'
                         },
                         hidden: ({ parent }) => parent.current === true,
                     },
