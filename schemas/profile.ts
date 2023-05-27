@@ -59,32 +59,32 @@ export default defineType({
                         title: 'School',
                         type: 'string',
                     },
-                    {
-                        name: 'fieldofStudy',
-                        title: 'Field of Study',
-                        type: 'string',
-                    },
-                    {
-                        name: "startMonth",
-                        title: "Start Month",
-                        type: "string",
-                        options: {
-                            list: [
-                                { "title": "Jan", "value": "January" },
-                                { "title": "Feb", "value": "February" },
-                                { "title": "Mar", "value": "March" },
-                                { "title": "Apr", "value": "April" },
-                                { "title": "May", "value": "May" },
-                                { "title": "Jun", "value": "June" },
-                                { "title": "Jul", "value": "July" },
-                                { "title": "Aug", "value": "August" },
-                                { "title": "Sep", "value": "September" },
-                                { "title": "Oct", "value": "October" },
-                                { "title": "Nov", "value": "November" },
-                                { "title": "Dec", "value": "December" }
-                            ]
-                        }
-                    },
+                    // {
+                    //     name: 'fieldofStudy',
+                    //     title: 'Field of Study',
+                    //     type: 'string',
+                    // },
+                    // {
+                    //     name: "startMonth",
+                    //     title: "Start Month",
+                    //     type: "string",
+                    //     options: {
+                    //         list: [
+                    //             { "title": "Jan", "value": "January" },
+                    //             { "title": "Feb", "value": "February" },
+                    //             { "title": "Mar", "value": "March" },
+                    //             { "title": "Apr", "value": "April" },
+                    //             { "title": "May", "value": "May" },
+                    //             { "title": "Jun", "value": "June" },
+                    //             { "title": "Jul", "value": "July" },
+                    //             { "title": "Aug", "value": "August" },
+                    //             { "title": "Sep", "value": "September" },
+                    //             { "title": "Oct", "value": "October" },
+                    //             { "title": "Nov", "value": "November" },
+                    //             { "title": "Dec", "value": "December" }
+                    //         ]
+                    //     }
+                    // },
                     {
                         name: 'startYear',
                         title: 'Start Year',
@@ -94,27 +94,27 @@ export default defineType({
                         },
 
                     },
-                    {
-                        name: "endMonth",
-                        title: "End Month",
-                        type: "string",
-                        options: {
-                            list: [
-                                { "title": "Jan", "value": "January" },
-                                { "title": "Feb", "value": "February" },
-                                { "title": "Mar", "value": "March" },
-                                { "title": "Apr", "value": "April" },
-                                { "title": "May", "value": "May" },
-                                { "title": "Jun", "value": "June" },
-                                { "title": "Jul", "value": "July" },
-                                { "title": "Aug", "value": "August" },
-                                { "title": "Sep", "value": "September" },
-                                { "title": "Oct", "value": "October" },
-                                { "title": "Nov", "value": "November" },
-                                { "title": "Dec", "value": "December" }
-                            ]
-                        }
-                    },
+                    // {
+                    //     name: "endMonth",
+                    //     title: "End Month",
+                    //     type: "string",
+                    //     options: {
+                    //         list: [
+                    //             { "title": "Jan", "value": "January" },
+                    //             { "title": "Feb", "value": "February" },
+                    //             { "title": "Mar", "value": "March" },
+                    //             { "title": "Apr", "value": "April" },
+                    //             { "title": "May", "value": "May" },
+                    //             { "title": "Jun", "value": "June" },
+                    //             { "title": "Jul", "value": "July" },
+                    //             { "title": "Aug", "value": "August" },
+                    //             { "title": "Sep", "value": "September" },
+                    //             { "title": "Oct", "value": "October" },
+                    //             { "title": "Nov", "value": "November" },
+                    //             { "title": "Dec", "value": "December" }
+                    //         ]
+                    //     }
+                    // },
                     {
                         name: 'endYear',
                         title: 'End Year',
