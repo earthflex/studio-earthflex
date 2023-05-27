@@ -155,6 +155,11 @@ export default defineType({
             }],
         },
         defineField({
+            name: 'profileImg',
+            title: 'Profile Image',
+            type: 'image',
+        }),
+        defineField({
             name: 'pdf',
             title: 'Resume PDF File',
             type: 'file',
