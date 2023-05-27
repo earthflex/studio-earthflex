@@ -60,12 +60,12 @@ export default defineType({
                         type: 'string',
                     },
                     {
-                        name: 'fieldofstudy',
+                        name: 'fieldofStudy',
                         title: 'Field of Study',
                         type: 'string',
                     },
                     {
-                        name: "startmonth",
+                        name: "startMonth",
                         title: "Start Month",
                         type: "string",
                         options: {
@@ -95,7 +95,7 @@ export default defineType({
 
                     },
                     {
-                        name: "endmonth",
+                        name: "endMonth",
                         title: "End Month",
                         type: "string",
                         options: {
