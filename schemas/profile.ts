@@ -147,6 +147,14 @@ export default defineType({
                         }
                     },
                     {
+                        name: 'color',
+                        title: 'Background Icon',
+                        type: 'color',
+                        options: {
+                            disableAlpha: true,
+                        }
+                    },
+                    {
                         name: 'detail',
                         title: 'Detail',
                         type: 'string',
