@@ -30,6 +30,21 @@ export default defineType({
             },
         }),
         defineField({
+            name: 'fullname',
+            title: 'Fullname',
+            type: 'string',
+        }),
+        defineField({
+            name: 'position',
+            title: 'Position',
+            type: 'string',
+        }),
+        defineField({
+            name: 'location',
+            title: 'Location',
+            type: 'string',
+        }),
+        defineField({
             name: 'skills',
             title: 'Skills',
             type: 'array',
@@ -70,18 +85,18 @@ export default defineType({
                         type: "string",
                         options: {
                             list: [
-                                { "title": "Jan", "value": "January" },
-                                { "title": "Feb", "value": "February" },
-                                { "title": "Mar", "value": "March" },
-                                { "title": "Apr", "value": "April" },
+                                { "title": "Jan", "value": "Jan " },
+                                { "title": "Feb", "value": "Feb" },
+                                { "title": "Mar", "value": "Mar" },
+                                { "title": "Apr", "value": "Apr" },
                                 { "title": "May", "value": "May" },
-                                { "title": "Jun", "value": "June" },
-                                { "title": "Jul", "value": "July" },
-                                { "title": "Aug", "value": "August" },
-                                { "title": "Sep", "value": "September" },
-                                { "title": "Oct", "value": "October" },
-                                { "title": "Nov", "value": "November" },
-                                { "title": "Dec", "value": "December" }
+                                { "title": "Jun", "value": "Jun" },
+                                { "title": "Jul", "value": "Jul" },
+                                { "title": "Aug", "value": "Aug" },
+                                { "title": "Sep", "value": "Sep" },
+                                { "title": "Oct", "value": "Oct" },
+                                { "title": "Nov", "value": "Nov" },
+                                { "title": "Dec", "value": "Dec" }
                             ]
                         }
                     },
@@ -100,18 +115,18 @@ export default defineType({
                         type: "string",
                         options: {
                             list: [
-                                { "title": "Jan", "value": "January" },
-                                { "title": "Feb", "value": "February" },
-                                { "title": "Mar", "value": "March" },
-                                { "title": "Apr", "value": "April" },
+                                { "title": "Jan", "value": "Jan " },
+                                { "title": "Feb", "value": "Feb" },
+                                { "title": "Mar", "value": "Mar" },
+                                { "title": "Apr", "value": "Apr" },
                                 { "title": "May", "value": "May" },
-                                { "title": "Jun", "value": "June" },
-                                { "title": "Jul", "value": "July" },
-                                { "title": "Aug", "value": "August" },
-                                { "title": "Sep", "value": "September" },
-                                { "title": "Oct", "value": "October" },
-                                { "title": "Nov", "value": "November" },
-                                { "title": "Dec", "value": "December" }
+                                { "title": "Jun", "value": "Jun" },
+                                { "title": "Jul", "value": "Jul" },
+                                { "title": "Aug", "value": "Aug" },
+                                { "title": "Sep", "value": "Sep" },
+                                { "title": "Oct", "value": "Oct" },
+                                { "title": "Nov", "value": "Nov" },
+                                { "title": "Dec", "value": "Dec" }
                             ]
                         }
                     },
@@ -183,7 +198,8 @@ export default defineType({
             type: 'file',
             description: 'Upload PDF files.',
             options: {
-                accept: '.pdf'
+                accept: '.pdf',
+                storeOriginalFilename: true,
             }
         })
     ],

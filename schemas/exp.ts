@@ -8,6 +8,11 @@ export default defineType({
     icon: RxBackpack,
     fields: [
         defineField({
+            name: 'current',
+            title: 'Currently working',
+            type: 'boolean',
+        }),
+        defineField({
             name: 'company',
             title: 'Company',
             type: 'string',
@@ -25,17 +30,12 @@ export default defineType({
                 type: 'object',
                 fields: [
                     {
-                        name: 'current',
-                        title: 'Currently working in this role',
-                        type: 'boolean',
-                    },
-                    {
                         name: 'position',
                         title: 'Position',
                         type: 'string',
                     },
                     {
-                        name: 'detail',
+                        name: 'detailRole',
                         title: 'Detail',
                         type: 'array',
                         of: [{
@@ -51,6 +51,11 @@ export default defineType({
                             calendarTodayLabel: 'Today'
                         },
                     },
+                    defineField({
+                        name: 'present',
+                        title: 'Present',
+                        type: 'boolean',
+                    }),
                     {
                         name: 'endDate',
                         title: 'End Date',
@@ -59,7 +64,7 @@ export default defineType({
                             dateFormat: 'DD/MM/YYYY',
                             calendarTodayLabel: 'Today'
                         },
-                        hidden: ({ parent }) => parent.current === true,
+                        hidden: ({ parent }) => parent.present === true,
                     },
                 ],
             }],
