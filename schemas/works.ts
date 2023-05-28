@@ -32,7 +32,7 @@ export default defineType({
             title: 'Work Type',
             type: 'string',
             options: {
-                list: ['Web App', 'Website', 'Graphic', 'Motion', 'Collage'],
+                list: ['Web App', 'Website', 'Mobile Application','e-Commerce', 'Graphic', 'Motion', 'Collage'],
             },
         }),
         defineField({
@@ -57,7 +57,7 @@ export default defineType({
                     'white',
                     'black',
                 ]
-            }
+            },
         }),
         defineField({
             name: 'coverimage',
