@@ -9,7 +9,7 @@ you can download and use this template to demo this template add yor Environment
   - [Step 2. Create a new project Sanity](#step-2-create-a-new-project-sanity)
   - [Step 3. Set up the environment](#step-3-set-up-the-environment)
   - [Step 4. Run Sanity locally in development mode](#step-4-run-sanity-locally-in-development-mode)
-  - [Step 5. Connect your front-end to show your personal site.](#step-5-connect-your-front-end-to-show-your-personal-site)
+  - [Step 5. Connect front-end to display your personal site.](#step-5-connect-front-end-to-display-your-personal-site)
 
 ## Project Overview
 
@@ -49,7 +49,7 @@ When you run this development server, the changes you make in your studio config
 
 You can create and edit personal profile on [https://localhost:3333/](https://localhost:3333) . default `PORT` Sanity
 
-### Step 5. Connect your front-end to show your personal site.
+### Step 5. Connect front-end to display your personal site.
 
 This is my personal site use case. : [https://earthflex.dev/](https://earthflex.dev)
  
