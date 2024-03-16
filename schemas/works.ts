@@ -76,5 +76,11 @@ export default defineType({
         },
       ],
     }),
+
+    defineField({
+      name: 'link',
+      title: 'Link',
+      type: 'string',
+    }),
   ],
 })
