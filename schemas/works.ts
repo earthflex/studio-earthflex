@@ -23,7 +23,7 @@ export default defineType({
       type: 'string',
       title: 'Media Type',
       options: {
-        list: ['img', 'video'],
+        list: ['img'],
       },
       initialValue: 'img',
     }),
